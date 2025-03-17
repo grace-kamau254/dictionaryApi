@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { FaSearch, FaVolumeUp } from 'react-icons/fa';
-import './Index.css';
+import './index.css';
 
 function App() {
   const [searchWord, setSearchWord] = useState('');
@@ -24,8 +24,8 @@ function App() {
       setData(null);
     }
   };
-
-  const playAudio = (audioUrl) => {
+  
+   const playAudio = (audioUrl) => {
     new Audio(audioUrl).play();
   };
 
