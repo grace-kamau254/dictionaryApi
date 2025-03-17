@@ -62,7 +62,7 @@ background-color:rgb(102, 204, 211);
     display: flex;
     justify-content:space-between ;
  padding: 2rem 4rem;
- font-size: 1.5rem;
+ font-size: 1rem;
  text-align:left;
  gap: 2rem;
   }
